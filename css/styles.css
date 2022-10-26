@@ -139,14 +139,10 @@ button {
     align-items: center;
     list-style: none;
     margin-left: 93px;
-
-
-
 }
 
 .nav-list .item+.item {
     margin-left: 50px;
-
 }
 
 .header-link {
@@ -200,16 +196,6 @@ button {
     fill: currentColor;
 }
 
-
-.phone-icon {
-    margin-right: 10px;
-
-}
-
-.phone-icon:hover {
-    fill: var(--accent-color);
-}
-
 .link-phone {
     font-weight: 500;
     line-height: 1.1;
@@ -222,9 +208,20 @@ button {
     color: var(--accent-color);
 }
 
+.phone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 /* Hero */
 .hero {
-    background-color: var(--page-title-bc);
+    max-width: 1600px;
+
+    background-image: url("../images/hero-img.jpg");
+    border-color: hsla(235, 10%, 21%, 0.4);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 200px 0;
 }
 
