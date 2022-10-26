@@ -184,7 +184,6 @@ button {
 }
 
 .link-mail-header {
-
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -196,8 +195,22 @@ button {
     color: var(--accent-color);
 }
 
-.link-phone {
+.link-mail-header .envelope-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
+
+.phone-icon {
+    margin-right: 10px;
+
+}
+
+.phone-icon:hover {
+    fill: var(--accent-color);
+}
+
+.link-phone {
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
