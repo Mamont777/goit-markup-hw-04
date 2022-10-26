@@ -195,7 +195,7 @@ button {
     color: var(--accent-color);
 }
 
-.link-mail-header .envelope-icon {
+.envelope-icon {
     margin-right: 10px;
     fill: currentColor;
 }
