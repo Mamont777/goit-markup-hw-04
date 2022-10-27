@@ -180,6 +180,8 @@ button {
 }
 
 .link-mail-header {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -197,6 +199,8 @@ button {
 }
 
 .link-phone {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -220,6 +224,7 @@ button {
     height: 600px;
     margin-right: auto;
     margin-left: auto;
+    background-color: var(--footer-bc);
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
     background-repeat: no-repeat;
@@ -380,6 +385,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 44px;
 }
 
 .social-link {
