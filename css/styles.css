@@ -425,22 +425,23 @@ button {
     justify-content: center;
     width: 100%;
     height: 100%;
-    fill: var(--icon-color);
-    border: 1px solid #AFB1B8;
+    color: var(--icon-color);
+    border: 1px solid var(--icon-color);
 
 }
 
 .clients-link:hover,
 .clients-link:focus {
-    fill: var(--accent-color);
+    color: var(--accent-color);
     border: 1px solid var(--accent-color);
 
 }
 
-.clients-item:hover,
-.clients-item:focus {
-    border-color: var(--accent-color);
+.icon-client {
+    fill: currentColor;
 }
+
+
 
 /* FOOTER */
 
