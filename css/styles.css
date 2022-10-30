@@ -89,7 +89,7 @@ button {
     align-items: center;
 }
 
-/* Header */
+/*------- Header------ */
 
 .container {
     width: 1200px;
@@ -134,7 +134,7 @@ button {
     text-decoration: none;
 }
 
-/* Navigation */
+/*---------- Navigation---------- */
 
 .nav-list {
     display: flex;
@@ -220,7 +220,7 @@ button {
     fill: currentColor;
 }
 
-/* Hero */
+/*------ Hero------ */
 
 .hero-overlay {
     max-width: 1600px;
@@ -272,7 +272,7 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* main content */
+/*--------------- Main content--------- */
 
 .properties-list {
     display: flex;
@@ -389,7 +389,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 44px;
+    height: 100%;
     border-radius: 50%;
     color: var(--icon-color);
 }
@@ -443,7 +443,7 @@ button {
 
 
 
-/* FOOTER */
+/*------------- FOOTER------------- */
 
 .footer {
     padding: 60px 0;
@@ -505,7 +505,7 @@ button {
     margin-left: 70px;
 }
 
-p {
+.join-text {
     color: var(--tertiary-text-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -548,7 +548,7 @@ p {
 
 
 
-/* PORTFOLIO */
+/* -----------PORTFOLIO------------- */
 
 
 .button-list {
