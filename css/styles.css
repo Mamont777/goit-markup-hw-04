@@ -158,10 +158,6 @@ button {
 
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
-}
 
 .link-current {
     display: block;
@@ -379,17 +375,13 @@ button {
     margin-left: 10px;
 }
 
-.social-item {
-    width: 44px;
-    height: 44px;
-
-}
 
 .social-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     color: var(--icon-color);
 }
